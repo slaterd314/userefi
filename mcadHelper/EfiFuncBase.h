@@ -1,7 +1,8 @@
 #ifndef MCADHELPER_EFIFUNC_H_INCLUDED__
 #define MCADHELPER_EFIFUNC_H_INCLUDED__
 #pragma once
-#include "MCADINCL.H"
+// #include "MCADINCL.H"
+#include <windef.h>
 #include <list>
 
 namespace mcadHelper {
