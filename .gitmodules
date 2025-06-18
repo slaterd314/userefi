@@ -1,0 +1,3 @@
+[submodule "qd/qd"]
+	path = qd/qd
+	url = git@github.com:BL-highprecision/QD.git

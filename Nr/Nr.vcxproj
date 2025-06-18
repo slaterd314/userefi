@@ -106,7 +106,7 @@
       <AdditionalDependencies>Nr.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(TargetPath) $(MCADDIR)\..\
+      <Command>copy $(TargetPath) "$(MCADDIR)\..\"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>

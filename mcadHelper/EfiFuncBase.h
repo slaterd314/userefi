@@ -76,7 +76,7 @@ namespace mcadHelper {
 	{
 	public:
 		EfiFunc()
-			: EfiFuncBase(T::name, T::params, T::desc, T::fn)
+			: EfiFuncBase(typename T::name, typename T::params, typename T::desc, typename T::fn)
 		{
 
 		}

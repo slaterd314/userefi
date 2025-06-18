@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="qd">
+      <UniqueIdentifier>{30f6345f-24b2-4a1a-b63d-76b39a2c0f2a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
@@ -27,6 +30,9 @@
     <ClInclude Include="utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="qd\src\util.h">
+      <Filter>qd</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="qd.cpp">
@@ -37,6 +43,33 @@
     </ClCompile>
     <ClCompile Include="dd.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qd\src\bits.cpp">
+      <Filter>qd</Filter>
+    </ClCompile>
+    <ClCompile Include="qd\src\c_dd.cpp">
+      <Filter>qd</Filter>
+    </ClCompile>
+    <ClCompile Include="qd\src\c_qd.cpp">
+      <Filter>qd</Filter>
+    </ClCompile>
+    <ClCompile Include="qd\src\dd_const.cpp">
+      <Filter>qd</Filter>
+    </ClCompile>
+    <ClCompile Include="qd\src\dd_real.cpp">
+      <Filter>qd</Filter>
+    </ClCompile>
+    <ClCompile Include="qd\src\fpu.cpp">
+      <Filter>qd</Filter>
+    </ClCompile>
+    <ClCompile Include="qd\src\qd_const.cpp">
+      <Filter>qd</Filter>
+    </ClCompile>
+    <ClCompile Include="qd\src\qd_real.cpp">
+      <Filter>qd</Filter>
+    </ClCompile>
+    <ClCompile Include="qd\src\util.cpp">
+      <Filter>qd</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
